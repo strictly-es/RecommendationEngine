@@ -134,7 +134,9 @@ function countUp2(area) {
     return;
   }
 
-  var ranking2 = recommendation_eng(dataset3, "shun", euclidean_score);
+  //var ranking2 = recommendation_eng(dataset3, "shun", euclidean_score);
+  var ranking2 = recommendation_eng(dataset3, "shun", pearson_correlation);
+
   console.log(dataset3);
   console.log(ranking2);
   displayImage(ranking2);
