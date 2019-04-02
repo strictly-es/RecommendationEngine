@@ -24,8 +24,45 @@
         物件はもちろん、ファンドだったり色々応用できそう。
     </p>
     <br>
-    <div class="table-responsive">
-        <table>
+    <div class="container">
+
+        <div class="row">
+            <div class="row-sm-4">
+                <div>鎌倉</div><img border="0" src="./img/kamakura.jpg" width="128" height="128" alt="イラスト1"
+                    onclick="countUp2('kamakura')">
+                <div id="output_kamakura"></div>
+            </div>
+            <div class="row-sm-4">
+                <div>逗子</div><img border="0" src="./img/zushi.jpg" width="128" height="128" alt="イラスト1"
+                    onclick="countUp2('zushi')">
+                <div id="output_zushi"></div>
+            </div>
+            <div class="row-sm-4">
+                <div>葉山</div><img border="0" src="./img/hayama.jpg" width="128" height="128" alt="イラスト1"
+                    onclick="countUp2('hayama')">
+                <div id="output_hayama"></div>
+            </div>
+            <div class="row-sm-4">
+                <div>秋谷</div><img border="0" src="./img/akitu.jpg" width="128" height="128" alt="イラスト1"
+                    onclick="countUp2('akiya')">
+                <div id="output_akitu"></div>
+            </div>
+            <div class="row-sm-4">
+                <div>鵠沼</div><img border="0" src="./img/enoshima.jpg" width="128" height="128" alt="イラスト1"
+                    onclick="countUp2('kugenuma')">
+                <div id="output_enoshima"></div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    オススメ　ランキング：
+    <div id="output_recommendation"></div>
+    <div id="img2"><span id="title"></span></div>
+
+    <br>
+
+    <!-- <table>
             <tr>
                 <th>
                     鎌倉
@@ -65,15 +102,9 @@
                     <div id="output_enoshima"></div>
                 </td>
             </tr>
-        </table>
-    </div>
-    <br>
+        </table> -->
 
-    オススメ　ランキング：
-    <div id="output_recommendation"></div>
-    <div id="img2"><span id="title"></span></div>
 
-    <br>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
