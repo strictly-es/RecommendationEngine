@@ -148,19 +148,19 @@ function displayImage(params) {
   for (const item of params) {
     if (item === "Kamakura") {
       document.getElementById("img2").innerHTML +=
-        "<img width=128 height=128 src='./img/kamakura.jpg'>";
+        "<img width=128 height=128 src='./img2/kamakura.jpg'>";
     } else if (item === "Hayama") {
       document.getElementById("img2").innerHTML +=
-        "<img width=128 height=128 src='./img/hayama.jpg'>";
+        "<img width=128 height=128 src='./img2/hayama.jpg'>";
     } else if (item === "Zushi") {
       document.getElementById("img2").innerHTML +=
-        "<img width=128 height=128 src='./img/zushi.jpg'>";
+        "<img width=128 height=128 src='./img2/zushi.jpg'>";
     } else if (item === "Akiya") {
       document.getElementById("img2").innerHTML +=
-        "<img width=128 height=128 src='./img/akitu.jpg'>";
+        "<img width=128 height=128 src='./img2/akitu.jpg'>";
     } else if (item === "Kugenuma") {
       document.getElementById("img2").innerHTML +=
-        "<img width=128 height=128 src='./img/enoshima.jpg'>";
+        "<img width=128 height=128 src='./img2/enoshima.jpg'>";
     }
   }
 }
